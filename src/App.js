@@ -1,9 +1,10 @@
 import './App.css';
-
+import Header from "./containers/Header";
+// import {Brou}
 function App() {
   return (
-    <div>
-      hello
+    <div className='App'>
+        <Header/>
     </div>
   );
 }
